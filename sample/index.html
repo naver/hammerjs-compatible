@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+
+<style type="text/css">
+
+    *, *:after, *:before {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        min-height: 100%;
+        background: #eee;
+        font: 13px/1.5em 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+
+    a {
+        color: #4986e7;
+    }
+
+    .bg1, .green { background: #42d692; }
+    .bg2, .blue { background: #4986e7; }
+    .bg3, .red { background: #d06b64; }
+    .bg4, .purple { background: #cd74e6; }
+    .bg5, .azure { background: #9fe1e7; }
+
+    body {
+        margin: 20px;
+    }
+
+    pre {
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .clear { clear: both; }
+
+    #left,#right {
+      display: block;
+      width: 50%;
+      height: 500px;
+      overflow: hidden;
+    }
+
+    #left { float: left; }
+    #right { float: right; }
+
+</style>
+<!-- 
+    JUST ADD SCRIPT ABOVE hammer.js.
+ -->
+<script type="text/javascript" src="../dist/hammerjs.compatible.js"></script>
+<script src="../bower_components/hammer.js/hammer.js"></script>
+</head>
+<body>
+	
+    <div class="container">
+        <pre id="left" class="bg1">Pan</pre>
+        <pre id="right" class="bg2">Pinch</pre>
+    </div>
+    <div class="clear"></div>
+    <ul id="log"></ul>
+
+    <script type="text/javascript">
+
+        var i = 0;
+
+        var mc = new Hammer(document.querySelector("#left"), { multiUser: true });
+        var mc2 = new Hammer(document.querySelector("#right"), { multiUser: true });
+        mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+        mc2.get('pinch').set({ enable: true });
+
+        var log = document.getElementById('log');
+        var li = document.createElement("li");
+        mc.on("panstart panleft panright panend", function (ev) {
+            var item =  li.cloneNode();
+            item.innerText = ev.type;
+            log.appendChild(item);
+        });
+        mc2.on("pinchstart pinchin pinchout pinchend", function (ev) {
+            var item =  li.cloneNode();
+            item.innerText = ev.type;
+            log.appendChild(item);
+        });
+
+
+    </script>
+</body>
+</html>

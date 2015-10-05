@@ -1,0 +1,17 @@
+{
+  "name": "hammerjs-compatible",
+  "version": "0.0.1",
+  "authors": [
+    "NAVER corp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "dependencies": {
+    "hammer.js": "~2.0.4"
+  },
+  "description": "The hammerjs-compatible is utility for use hammerjs on Internet Explorer 8."
+}
