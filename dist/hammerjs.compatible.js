@@ -1,4 +1,4 @@
-/*! hammerjs-compatible - v0.0.2
+/*! hammerjs-compatible - v0.0.1
 * Copyright (c) 2015 ; Licensed MIT */
 "use strict";
 // http://qiita.com/sounisi5011/items/a8fc80e075e4f767b79
