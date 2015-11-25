@@ -11,12 +11,8 @@ JUST ADD FILE ABOVE HAMMER.JS.
 ```
 
 # Download
-You can use [naver-bower](http://bower.devsetting.navercorp.com/).
-```
-naver-bower install hammerjs-compatible
-```
-or
-[Download file](https://oss.navercorp.com/egjs/hammerjs-compatible/tree/master/dist).
+You can download following link.  
+https://oss.navercorp.com/egjs/hammerjs-compatible/tree/master/dist
 
 # Build
 ```
