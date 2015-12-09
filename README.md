@@ -5,7 +5,7 @@ The Hammer.js support above IE(Internet Explorer)9 so It does not use on IE8. Th
 JUST ADD FILE ABOVE HAMMER.JS.
 ```html
 <!--[if IE 8]>
-<script type="text/javascript" src="../dist/hammerjs.compatible.js"></script> // <-- like this.
+<script type="text/javascript" src="../dist/hammerjs.compatible.js"></script> <- like this.
 <![endif]-->
 <script src="../bower_components/hammer.js/hammer.js"></script>
 ```
