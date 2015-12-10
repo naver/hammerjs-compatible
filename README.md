@@ -20,4 +20,5 @@ npm install
 grunt
 ```
 
+[![Analytics](https://ga-beacon.appspot.com/UA-70842526-9/hammerjs-compatible/readme)](https://github.com/egjs/hammerjs-compatible)
 
