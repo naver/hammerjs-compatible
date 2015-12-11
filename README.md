@@ -12,7 +12,7 @@ JUST ADD FILE ABOVE HAMMER.JS.
 
 # Download
 You can download following link.  
-https://oss.navercorp.com/egjs/hammerjs-compatible/tree/master/dist
+https://github.com/egjs/hammerjs-compatible/tree/master/dist
 
 # Build
 ```
