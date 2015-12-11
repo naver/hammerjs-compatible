@@ -9,7 +9,11 @@
     "**/.*",
     "bower_components",
     "node_modules",
-    "src"
+    "src",
+    "*.json",
+    "Gruntfile.js",
+    "*.md",
+    ".*"
   ],
   "devDependencies": {
     "hammer.js": "~2.0.4"
