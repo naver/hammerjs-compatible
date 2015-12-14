@@ -5,6 +5,13 @@
     "NAVER corp"
   ],
   "license": "MIT",
+  "keywords": [
+    "hammer",
+    "hammer.js",
+    "compatible",
+    "ie8",
+    "egjs"
+  ],
   "ignore": [
     "**/.*",
     "bower_components",
