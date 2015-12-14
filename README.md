@@ -13,6 +13,9 @@ JUST ADD FILE ABOVE HAMMER.JS.
 # Download
 You can download following link.  
 https://github.com/egjs/hammerjs-compatible/tree/master/dist
+```
+bower install hammerjs-compatible
+```
 
 # Build
 ```
