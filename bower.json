@@ -12,6 +12,10 @@
     "ie8",
     "egjs"
   ],
+  "main": [
+    "./dist/hammerjs.compatible.js",
+    "./dist/hammerjs.compatible.min.js"
+  ],
   "ignore": [
     "**/.*",
     "bower_components",
