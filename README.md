@@ -12,7 +12,7 @@ JUST ADD FILE ABOVE HAMMER.JS.
 
 # Download
 You can download following link.  
-https://github.com/egjs/hammerjs-compatible/tree/master/dist
+https://github.com/naver/hammerjs-compatible/tree/master/dist
 ```
 bower install hammerjs-compatible
 ```
@@ -23,5 +23,5 @@ npm install
 grunt
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-70842526-9/hammerjs-compatible/readme)](https://github.com/egjs/hammerjs-compatible)
+[![Analytics](https://ga-beacon.appspot.com/UA-70842526-9/hammerjs-compatible/readme)](https://github.com/naver/hammerjs-compatible)
 
