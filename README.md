@@ -14,7 +14,7 @@ JUST ADD FILE ABOVE HAMMER.JS.
 You can download following link.  
 https://github.com/naver/hammerjs-compatible/tree/master/dist
 ```
-bower install hammerjs-compatible
+npm install hammerjs-compatible
 ```
 
 # Build
