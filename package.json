@@ -2,7 +2,7 @@
   "name": "hammerjs-compatible",
   "version": "0.0.2",
   "description": "The hammerjs-compatible is utility for use hammerjs on Internet Explorer 8.",
-  "outputname" : "hammerjs.compatible",
+  "outputname": "hammerjs.compatible",
   "main": "dist/hammerjs.compatible.js",
   "scripts": {
     "test": "grunt"
