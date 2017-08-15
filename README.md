@@ -7,7 +7,7 @@ JUST ADD FILE ABOVE HAMMER.JS.
 <!--[if IE 8]>
 <script type="text/javascript" src="../dist/hammerjs.compatible.js"></script> <- like this.
 <![endif]-->
-<script src="../bower_components/hammer.js/hammer.js"></script>
+<script src="../node_modules/hammerjs-compatible/dist/hammerjs.compatible.js"></script>
 ```
 
 # Download
